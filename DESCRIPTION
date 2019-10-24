@@ -1,0 +1,39 @@
+Package: MolecularDiagnosis
+Title: Identify Cancer Type using IMPACT Data only
+Version: 1.2.0
+Authors@R: c(
+    person("Youyun", "Zheng", email = "zhengy1@mskcc.org", role = "aut"),
+    person("Niedzica", "Camacho", email = "camachon@mskcc.org", role = "aut"),
+    person("Alex", "Penson", email = "pensona@mskcc.org", role = c("aut", "cre"))
+    )
+Description: This package applies machine learning to mutations and copy number
+    from the MSK Clinical Series and public data (TCGA/ICGC) in order to help
+    identify the cancer subtype of new cases.
+biocViews: 
+Depends:
+    R (>= 3.1.0)
+Imports:
+    data.table,
+    optparse,
+    stringr,
+    doParallel,
+    caret,
+    e1071,
+    randomForest,
+    glmnet,
+    rfFC, 
+    readxl, 
+    ModelMetrics, 
+    MLmetrics, 
+    testthat,
+    plyr,
+    binom,
+    covr,
+    openxlsx,
+    roxygen2 (>= 6.1.0)
+Suggests:
+Remotes: github::rforge/rffc/pkg
+License: GPL-3
+LazyData: true
+RoxygenNote: 6.1.1
+Encoding: UTF-8

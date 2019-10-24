@@ -1,0 +1,362 @@
+CANCER_TYPE	CANCER_TYPE_DETAILED	N	Cancer_Type
+Adrenocortical Carcinoma	Adrenocortical Adenoma	1	
+Adrenocortical Carcinoma	Adrenocortical Carcinoma	25	
+Ampullary Carcinoma	Ampullary Carcinoma	17	
+Ampullary Carcinoma	Pancreatobiliary Ampullary Carcinoma	8	
+Anal Cancer	Anal Gland Adenocarcinoma	1	
+Anal Cancer	Anal Squamous Cell Carcinoma	32	
+Appendiceal Cancer	Appendiceal Adenocarcinoma	19	
+Appendiceal Cancer	Goblet Cell Carcinoid of the Appendix	8	
+Appendiceal Cancer	Mucinous Adenocarcinoma of the Appendix	50	
+Appendiceal Cancer	Signet Ring Cell Type of the Appendix	5	
+Biliary Cancer	Cholangiocarcinoma	57	Cholangiocarcinoma
+Biliary Cancer	Extrahepatic Cholangiocarcinoma	27	Cholangiocarcinoma
+Biliary Cancer	Gallbladder Cancer	47	
+Biliary Cancer	Intrahepatic Cholangiocarcinoma	115	Cholangiocarcinoma
+Biliary Cancer	Perihilar Cholangiocarcinoma	1	Cholangiocarcinoma
+Bladder Cancer	Bladder Adenocarcinoma	7	
+Bladder Cancer	Bladder Squamous Cell Carcinoma	2	
+Bladder Cancer	Bladder Urothelial Carcinoma	312	Bladder Cancer
+Bladder Cancer	Plasmacytoid/Signet Ring Cell Bladder Carcinoma	6	
+Bladder Cancer	Sarcomatoid Carcinoma of the Urinary Bladder	1	
+Bladder Cancer	Small Cell Bladder Cancer	2	
+Bladder Cancer	Upper Tract Urothelial Carcinoma	82	Bladder Cancer
+Bladder Cancer	Urachal Adenocarcinoma	2	
+Bladder Cancer	Urethral Adenocarcinoma	4	
+Bladder Cancer	Urethral Squamous Cell Carcinoma	2	
+Bladder Cancer	Urethral Urothelial Carcinoma	2	
+Breast Carcinoma	Adenoid Cystic Breast Cancer	2	Breast Cancer
+Breast Carcinoma	Breast Carcinoma	6	Breast Cancer
+Breast Carcinoma	"Breast Invasive Cancer, NOS"	18	Breast Cancer
+Breast Carcinoma	"Breast Invasive Carcinoma, NOS"	39	Breast Cancer
+Breast Carcinoma	Breast Invasive Ductal Carcinoma	997	Breast Cancer
+Breast Carcinoma	Breast Invasive Lobular Carcinoma	195	Breast Cancer
+Breast Carcinoma	Breast Invasive Mixed Mucinous Carcinoma	1	Breast Cancer
+Breast Carcinoma	Breast Mixed Ductal and Lobular Carcinoma	60	Breast Cancer
+Breast Carcinoma	Metaplastic Breast Cancer	9	Breast Cancer
+Breast Sarcoma	Breast Angiosarcoma	3	
+Breast Sarcoma	Malignant Phyllodes Tumor of the Breast	9	
+Cancer of Unknown Primary	"Adenocarcinoma, NOS"	3	
+Cancer of Unknown Primary	Cancer of Unknown Primary	146	
+Cancer of Unknown Primary	"Neuroendocrine Carcinoma, NOS"	3	
+Cancer of Unknown Primary	"Neuroendocrine Tumor, NOS"	4	
+Cancer of Unknown Primary	"Poorly Differentiated Carcinoma, NOS"	7	
+Cancer of Unknown Primary	"Squamous Cell Carcinoma, NOS"	2	
+Cervical Cancer	Cervical Adenosquamous Carcinoma	5	
+Cervical Cancer	Cervical Clear Cell Carcinoma	1	
+Cervical Cancer	Cervical Endometrioid Carcinoma	1	
+Cervical Cancer	Cervical Squamous Cell Carcinoma	11	
+Cervical Cancer	Endocervical Adenocarcinoma	17	
+Cervical Cancer	Gastric Type Mucinous Carcinoma	6	
+Cervical Cancer	Intestinal Type Mucinous Carcinoma	1	
+Cervical Cancer	Mesonephric Carcinoma	1	
+Cervical Cancer	Mixed Cervical Carcinoma	4	
+Cervical Cancer	Mucinous Carcinoma	1	
+Cervical Cancer	Small Cell Carcinoma of the Cervix	2	
+Chondroblastoma	Chondroblastoma	1	
+Chondrosarcoma	Chondrosarcoma	19	
+Chondrosarcoma	Dedifferentiated Chondrosarcoma	3	
+Chondrosarcoma	Extraskeletal Myxoid Chondrosarcoma	5	
+Chondrosarcoma	Mesenchymal Chondrosarcoma	3	
+Chondrosarcoma	Myxoid Chondrosarcoma	6	
+Chordoma	Chordoma	14	
+Colorectal Cancer	Colon Adenocarcinoma	708	Colorectal Cancer
+Colorectal Cancer	Colorectal Adenocarcinoma	16	Colorectal Cancer
+Colorectal Cancer	Medullary Carcinoma of the Colon	1	Colorectal Cancer
+Colorectal Cancer	Mucinous Adenocarcinoma of the Colon and Rectum	37	Colorectal Cancer
+Colorectal Cancer	Mucinous Colorectal Carcinoma	1	Colorectal Cancer
+Colorectal Cancer	Rectal Adenocarcinoma	238	Colorectal Cancer
+Colorectal Cancer	Signet Ring Cell Adenocarcinoma of the Colon and Rectum	2	
+Embryonal Tumor	Medulloblastoma	2	
+Embryonal Tumor	Neuroblastoma	80	Neuroblastoma
+Embryonal Tumor	Olfactory Neuroblastoma	2	
+Embryonal Tumor	Primitive Neuroectodermal Tumor	2	
+Encapsulated Glioma	Anaplastic Pleomorphic Xanthoastrocytoma	2	
+Endometrial Cancer	Endometrial Carcinoma	1	Endometrial Cancer
+Endometrial Cancer	Uterine Carcinosarcoma/Uterine Malignant Mixed Mullerian Tumor	38	Endometrial Cancer
+Endometrial Cancer	Uterine Clear Cell Carcinoma	14	Endometrial Cancer
+Endometrial Cancer	Uterine Dedifferentiated Carcinoma	1	Endometrial Cancer
+Endometrial Cancer	Uterine Endometrioid Carcinoma	95	Endometrial Cancer
+Endometrial Cancer	Uterine Mixed Endometrial Carcinoma	19	Endometrial Cancer
+Endometrial Cancer	Uterine Neuroendocrine Carcinoma	1	Endometrial Cancer
+Endometrial Cancer	Uterine Serous Carcinoma/Uterine Papillary Serous Carcinoma	47	Endometrial Cancer
+Endometrial Cancer	Uterine Undifferentiated Carcinoma	3	Endometrial Cancer
+Ependymomal Tumor	Anaplastic Ependymoma	5	
+Ependymomal Tumor	Ependymoma	9	
+Ependymomal Tumor	Ependymomal Tumor	1	
+Ependymomal Tumor	Myxopapillary Ependymoma	1	
+Esophagogastric Carcinoma	Adenocarcinoma of the Gastroesophageal Junction	47	Esophagogastric Cancer
+Esophagogastric Carcinoma	Esophageal Adenocarcinoma	115	Esophagogastric Cancer
+Esophagogastric Carcinoma	Esophageal Squamous Cell Carcinoma	9	Esophagogastric Cancer
+Esophagogastric Carcinoma	Esophagogastric Adenocarcinoma	1	Esophagogastric Cancer
+Esophagogastric Carcinoma	Intestinal Type Stomach Adenocarcinoma	1	Esophagogastric Cancer
+Esophagogastric Carcinoma	Poorly Differentiated Carcinoma of the Stomach	3	Esophagogastric Cancer
+Esophagogastric Carcinoma	Signet Ring Cell Carcinoma of the Stomach	2	Esophagogastric Cancer
+Esophagogastric Carcinoma	Stomach Adenocarcinoma	164	Esophagogastric Cancer
+Esophagogastric Carcinoma	Tubular Stomach Adenocarcinoma	1	Esophagogastric Cancer
+Ewing Sarcoma	Ewing Sarcoma	38	
+Gastrointestinal Neuroendocrine Tumor	Gastrointestinal Neuroendocrine Tumors	9	
+Gastrointestinal Neuroendocrine Tumor	High-Grade Neuroendocrine Carcinoma of the Colon and Rectum	13	
+Gastrointestinal Neuroendocrine Tumor	Small Bowel Well-Differentiated Neuroendocrine Tumor	20	
+Gastrointestinal Neuroendocrine Tumor	Well-Differentiated Neuroendocrine Tumor of the Appendix	4	
+Gastrointestinal Neuroendocrine Tumor	Well-Differentiated Neuroendocrine Tumor of the Rectum	5	
+Gastrointestinal Neuroendocrine Tumor	Well-Differentiated Neuroendocrine Tumors of the Stomach	3	
+Gastrointestinal Stromal Tumor	Gastrointestinal Stromal Tumor	137	Gastrointestinal Stromal Tumor
+Germ Cell Tumor	Embryonal Carcinoma	19	Germ Cell Tumor
+Germ Cell Tumor	Immature Teratoma	2	Germ Cell Tumor
+Germ Cell Tumor	Mature Teratoma	2	Germ Cell Tumor
+Germ Cell Tumor	Mixed Germ Cell Tumor	141	Germ Cell Tumor
+Germ Cell Tumor	Non-Seminomatous Germ Cell Tumor	8	Germ Cell Tumor
+Germ Cell Tumor	Seminoma	76	Germ Cell Tumor
+Germ Cell Tumor	Teratoma	4	Germ Cell Tumor
+Germ Cell Tumor	Teratoma with Malignant Transformation	5	Germ Cell Tumor
+Germ Cell Tumor	Yolk Sac Tumor	23	Germ Cell Tumor
+Gestational Trophoblastic Disease	Choriocarcinoma	11	
+Glioma	Anaplastic Astrocytoma	86	Glioma
+Glioma	Anaplastic Ganglioglioma	1	Glioma
+Glioma	Anaplastic Oligoastrocytoma	16	Glioma
+Glioma	Anaplastic Oligodendroglioma	43	Glioma
+Glioma	Astrocytoma	35	Glioma
+Glioma	Diffuse Intrinsic Pontine Glioma	2	Glioma
+Glioma	Ganglioglioma	1	Glioma
+Glioma	Glioblastoma Multiforme	286	Glioma
+Glioma	Gliosarcoma	10	Glioma
+Glioma	"High-Grade Glioma, NOS"	20	Glioma
+Glioma	"Low-Grade Glioma, NOS"	8	Glioma
+Glioma	Oligoastrocytoma	4	Glioma
+Glioma	Oligodendroglioma	36	Glioma
+Glioma	Pilocytic Astrocytoma	2	Glioma
+Glioma	Pleomorphic Xanthoastrocytoma	1	Glioma
+Head and Neck Carcinoma	Clear Cell Odontogenic Carcinoma	1	Head and Neck Cancer
+Head and Neck Carcinoma	Epithelial-Myoepithelial Carcinoma	3	Head and Neck Cancer
+Head and Neck Carcinoma	"Head and Neck Carcinoma, Other"	2	Head and Neck Cancer
+Head and Neck Carcinoma	Head and Neck Neuroendocrine Carcinoma	5	Head and Neck Cancer
+Head and Neck Carcinoma	Head and Neck Squamous Cell Carcinoma	43	Head and Neck Cancer
+Head and Neck Carcinoma	Head and Neck Squamous Cell Carcinoma of Unknown Primary	7	Head and Neck Cancer
+Head and Neck Carcinoma	Hypopharynx Squamous Cell Carcinoma	4	Head and Neck Cancer
+Head and Neck Carcinoma	Larynx Squamous Cell Carcinoma	14	Head and Neck Cancer
+Head and Neck Carcinoma	Nasopharyngeal Carcinoma	13	Head and Neck Cancer
+Head and Neck Carcinoma	Odontogenic Carcinoma	1	Head and Neck Cancer
+Head and Neck Carcinoma	Oral Cavity Squamous Cell Carcinoma	42	Head and Neck Cancer
+Head and Neck Carcinoma	Oropharynx Squamous Cell Carcinoma	42	Head and Neck Cancer
+Head and Neck Carcinoma	Sinonasal Adenocarcinoma	4	Head and Neck Cancer
+Head and Neck Carcinoma	Sinonasal Squamous Cell Carcinoma	4	Head and Neck Cancer
+Head and Neck Carcinoma	Sinonasal Undifferentiated Carcinoma	2	Head and Neck Cancer
+Hepatocellular Carcinoma	Fibrolamellar Carcinoma	17	
+Hepatocellular Carcinoma	Hepatoblastoma	3	
+Hepatocellular Carcinoma	Hepatocellular Carcinoma	85	
+Hepatocellular Carcinoma	Hepatocellular Carcinoma plus Intrahepatic Cholangiocarcinoma	4	
+Histiocytosis	Histiocytosis	4	
+Histiocytosis	Langerhans Cell Histiocytosis	4	
+Histiocytosis	Non-Langerhans Cell Histiocytosis/Erdheim-Chester Disease	14	
+Hodgkin Lymphoma	Classical Hodgkin Lymphoma	3	
+Hodgkin Lymphoma	Hodgkin Lymphoma	2	
+Leukemia	Acute Myeloid Leukemia	1	
+Leukemia	Chronic Lymphocytic Leukemia	2	
+Leukemia	T-Cell Acute Lymphoid Leukemia	1	
+Mastocytosis	Systemic Mastocytosis	1	
+Melanoma	Acral Melanoma	23	Melanoma
+Melanoma	Anorectal Mucosal Melanoma	23	Melanoma
+Melanoma	Cutaneous Melanoma	192	Melanoma
+Melanoma	Desmoplastic Melanoma	1	Melanoma
+Melanoma	Genitourinary Mucosal Melanoma	3	Melanoma
+Melanoma	Head and Neck Mucosal Melanoma	13	Melanoma
+Melanoma	Melanoma of Unknown Primary	44	Melanoma
+Melanoma	Mucosal Melanoma of the Esophagus	4	Melanoma
+Melanoma	Mucosal Melanoma of the Urethra	2	Melanoma
+Melanoma	Mucosal Melanoma of the Vulva/Vagina	15	Melanoma
+Melanoma	Primary CNS Melanoma	1	Melanoma
+Melanoma	Uveal Melanoma	44	Uveal Melanoma
+Meningothelial Tumor	Anaplastic Meningioma	2	
+Meningothelial Tumor	Atypical Meningioma	5	
+Meningothelial Tumor	Hemangiopericytoma of the Central Nervous System	2	
+Meningothelial Tumor	Meningioma	21	
+Meningothelial Tumor	Solitary Fibrous Tumor of the Central Nervous System	2	
+Mesothelioma	Peritoneal Mesothelioma	18	Mesothelioma
+Mesothelioma	Pleural Mesothelioma	39	Mesothelioma
+Mesothelioma	"Pleural Mesothelioma, Biphasic Type"	5	Mesothelioma
+Mesothelioma	"Pleural Mesothelioma, Epithelioid Type"	41	Mesothelioma
+Mesothelioma	"Pleural Mesothelioma, Sarcomatoid Type"	2	Mesothelioma
+Mesothelioma	Testicular Mesothelioma	2	Mesothelioma
+Miscellaneous Brain Tumor	Hemangioblastoma	3	
+Miscellaneous Brain Tumor	Malignant Lymphoma	3	
+Miscellaneous Neuroepithelial Tumor	Astroblastoma	1	
+Miscellaneous Neuroepithelial Tumor	Central Neurocytoma	1	
+Miscellaneous Neuroepithelial Tumor	Extraventricular Neurocytoma	1	
+Miscellaneous Neuroepithelial Tumor	Paraganglioma	4	
+Miscellaneous Neuroepithelial Tumor	Rosette-forming Glioneuronal Tumor of the Fourth Ventricle	2	
+Multiple Myeloma	Multiple Myeloma	1	
+Nerve Sheath Tumor	Cellular Schwannoma	1	
+Nerve Sheath Tumor	Malignant Peripheral Nerve Sheath Tumor	11	
+Nerve Sheath Tumor	Melanotic Schwannoma	1	
+Nerve Sheath Tumor	Schwannoma	3	
+Non-Hodgkin Lymphoma	Anaplastic Large Cell Lymphoma	1	
+Non-Hodgkin Lymphoma	Angioimmunoblastic T-Cell Lymphoma	14	
+Non-Hodgkin Lymphoma	B-Cell Lymphoma	9	
+Non-Hodgkin Lymphoma	Diffuse Large B-Cell Lymphoma	74	
+Non-Hodgkin Lymphoma	Extranodal Marginal Zone Lymphoma	1	
+Non-Hodgkin Lymphoma	Follicular Lymphoma	27	
+Non-Hodgkin Lymphoma	Mantle Cell Lymphoma	13	
+Non-Hodgkin Lymphoma	Marginal Zone Lymphoma	4	
+Non-Hodgkin Lymphoma	Mediastinal Large B-Cell Lymphoma	1	
+Non-Hodgkin Lymphoma	Mycosis Fungoides	1	
+Non-Hodgkin Lymphoma	Non-Hodgkin Lymphoma	5	
+Non-Hodgkin Lymphoma	Peripheral T-Cell Lymphoma	13	
+Non-Hodgkin Lymphoma	Small Lymphocytic Lymphoma	1	
+Non-Hodgkin Lymphoma	T-Cell and Natural Killer Lymphoma	1	
+Non-Hodgkin Lymphoma	Waldenstrom Macroglobulinemia	1	
+Non-Small Cell Lung Cancer	Atypical Lung Carcinoid	13	Non-Small Cell Lung Cancer
+Non-Small Cell Lung Cancer	Basaloid Large Cell Carcinoma of the Lung	1	Non-Small Cell Lung Cancer
+Non-Small Cell Lung Cancer	Ciliated Muconodular Papillary Tumor of the Lung	1	Non-Small Cell Lung Cancer
+Non-Small Cell Lung Cancer	Large Cell Lung Carcinoma	1	Non-Small Cell Lung Cancer
+Non-Small Cell Lung Cancer	Large Cell Neuroendocrine Carcinoma	39	Non-Small Cell Lung Cancer
+Non-Small Cell Lung Cancer	Lung Adenocarcinoma	1358	Non-Small Cell Lung Cancer
+Non-Small Cell Lung Cancer	Lung Adenosquamous Carcinoma	11	Non-Small Cell Lung Cancer
+Non-Small Cell Lung Cancer	Lung Carcinoid	9	Non-Small Cell Lung Cancer
+Non-Small Cell Lung Cancer	Lung Squamous Cell Carcinoma	170	Non-Small Cell Lung Cancer
+Non-Small Cell Lung Cancer	Lymphoepithelioma-like Carcinoma of the Lung	1	Non-Small Cell Lung Cancer
+Non-Small Cell Lung Cancer	Non-Small Cell Lung Cancer	17	Non-Small Cell Lung Cancer
+Non-Small Cell Lung Cancer	Pleomorphic Carcinoma of the Lung	1	Non-Small Cell Lung Cancer
+Non-Small Cell Lung Cancer	Poorly Differentiated Non-Small Cell Lung Cancer	26	Non-Small Cell Lung Cancer
+Non-Small Cell Lung Cancer	Sarcomatoid Carcinoma of the Lung	14	Non-Small Cell Lung Cancer
+Non-Small Cell Lung Cancer	Spindle Cell Carcinoma of the Lung	3	Non-Small Cell Lung Cancer
+Osteosarcoma	Chondroblastic Osteosarcoma	4	
+Osteosarcoma	Osteoblastic Osteosarcoma	3	
+Osteosarcoma	Osteosarcoma	37	
+Osteosarcoma	Secondary Osteosarcoma	1	
+Osteosarcoma	Small Cell Osteosarcoma	1	
+Ovarian Cancer	Clear Cell Ovarian Cancer	24	Ovarian Cancer
+Ovarian Cancer	Endometrioid Ovarian Cancer	7	Ovarian Cancer
+Ovarian Cancer	High-Grade Neuroendocrine Carcinoma of the Ovary	1	Ovarian Cancer
+Ovarian Cancer	High-Grade Serous Ovarian Cancer	133	Ovarian Cancer
+Ovarian Cancer	Low-Grade Serous Ovarian Cancer	23	Ovarian Cancer
+Ovarian Cancer	Mixed Ovarian Carcinoma	5	Ovarian Cancer
+Ovarian Cancer	Mucinous Ovarian Cancer	9	Ovarian Cancer
+Ovarian Cancer	"Ovarian Cancer, Other"	1	Ovarian Cancer
+Ovarian Cancer	Ovarian Carcinosarcoma/Malignant Mixed Mesodermal Tumor	12	Ovarian Cancer
+Ovarian Cancer	Ovarian Epithelial Tumor	1	Ovarian Cancer
+Ovarian Cancer	Ovarian Seromucinous Carcinoma	1	Ovarian Cancer
+Ovarian Cancer	Serous Borderline Ovarian Tumor	2	Ovarian Cancer
+Ovarian Cancer	"Serous Borderline Ovarian Tumor, Micropapillary"	3	Ovarian Cancer
+Ovarian Cancer	Serous Ovarian Cancer	2	Ovarian Cancer
+Ovarian Cancer	Small Cell Carcinoma of the Ovary	1	Ovarian Cancer
+Pancreatic Cancer	Acinar Cell Carcinoma of the Pancreas	14	Pancreatic Cancer
+Pancreatic Cancer	Adenosquamous Carcinoma of the Pancreas	8	Pancreatic Cancer
+Pancreatic Cancer	Intraductal Papillary Mucinous Neoplasm	8	Pancreatic Cancer
+Pancreatic Cancer	Mucinous Cystic Neoplasm	2	Pancreatic Cancer
+Pancreatic Cancer	Pancreatic Adenocarcinoma	386	Pancreatic Cancer
+Pancreatic Cancer	Pancreatic Neuroendocrine Tumor	78	Pancreatic Neuroendocrine Tumor
+Pancreatic Cancer	Pancreatoblastoma	1	Pancreatic Cancer
+Pancreatic Cancer	Serous Cystadenoma of the Pancreas	1	Pancreatic Cancer
+Pancreatic Cancer	Solid Pseudopapillary Neoplasm of the Pancreas	5	Pancreatic Cancer
+Pancreatic Cancer	Undifferentiated Carcinoma of the Pancreas	4	Pancreatic Cancer
+Penile Cancer	Basaloid Penile Squamous Cell Carcinoma	1	
+Penile Cancer	Penile Squamous Cell Carcinoma	6	
+Pheochromocytoma	Pheochromocytoma	4	
+Pineal Tumor	Pineal Parenchymal Tumor of Intermediate Differentiation	3	
+Prostate Cancer	Prostate Adenocarcinoma	695	Prostate Cancer
+Prostate Cancer	Prostate Neuroendocrine Carcinoma	12	Prostate Cancer
+Prostate Cancer	Prostate Small Cell Carcinoma	7	Prostate Cancer
+Renal Cell Carcinoma	Chromophobe Renal Cell Carcinoma	33	Renal Cell Cancer
+Renal Cell Carcinoma	Collecting Duct Renal Cell Carcinoma	1	Renal Cell Cancer
+Renal Cell Carcinoma	Papillary Renal Cell Carcinoma	32	Renal Cell Cancer
+Renal Cell Carcinoma	Renal Angiomyolipoma	8	Renal Cell Cancer
+Renal Cell Carcinoma	Renal Cell Carcinoma	2	Renal Cell Cancer
+Renal Cell Carcinoma	Renal Clear Cell Carcinoma	202	Renal Cell Cancer
+Renal Cell Carcinoma	Renal Clear Cell Carcinoma with Sarcomatoid Features	1	Renal Cell Cancer
+Renal Cell Carcinoma	Renal Medullary Carcinoma	4	Renal Cell Cancer
+Renal Cell Carcinoma	Renal Mucinous Tubular Spindle Cell Carcinoma	5	Renal Cell Cancer
+Renal Cell Carcinoma	Renal Oncocytoma	3	Renal Cell Cancer
+Renal Cell Carcinoma	Translocation-Associated Renal Cell Carcinoma	13	Renal Cell Cancer
+Renal Cell Carcinoma	Unclassified Renal Cell Carcinoma	54	Renal Cell Cancer
+Renal Non-Clear Cell Carcinoma	Kidney Renal Clear Cell Papillary Carcinoma	2	
+Retinoblastoma	Retinoblastoma	4	
+Salivary Carcinoma	Acinic Cell Carcinoma	2	
+Salivary Carcinoma	Adenoid Cystic Carcinoma	73	
+Salivary Carcinoma	Mammary Analogue Secretory Carcinoma of Salivary Gland Origin	5	
+Salivary Carcinoma	Mucoepidermoid Carcinoma	3	
+Salivary Carcinoma	Myoepithelial Carcinoma	4	
+Salivary Carcinoma	Salivary Adenocarcinoma	4	
+Salivary Carcinoma	Salivary Carcinoma	2	
+Salivary Carcinoma	"Salivary Carcinoma, Other"	2	
+Salivary Carcinoma	Salivary Duct Carcinoma	18	
+Sellar Tumor	"Craniopharyngioma, Adamantinomatous Type"	1	
+Sellar Tumor	Granular Cell Tumor	2	
+Sellar Tumor	Pituicytoma	1	
+Sellar Tumor	Pituitary Adenoma	1	
+Sex Cord Stromal Tumor	Granulosa Cell Tumor	14	
+Sex Cord Stromal Tumor	Sertoli-Leydig Cell Tumor	2	
+Sex Cord Stromal Tumor	Sex Cord Stromal Tumors	2	
+Sex Cord Stromal Tumor	"Steroid Cell Tumor, NOS"	1	
+"Skin Cancer, Non-Melanoma"	Basal Cell Carcinoma	12	
+"Skin Cancer, Non-Melanoma"	Cutaneous Squamous Cell Carcinoma	55	
+"Skin Cancer, Non-Melanoma"	Dermatofibroma	1	
+"Skin Cancer, Non-Melanoma"	Dermatofibrosarcoma Protuberans	3	
+"Skin Cancer, Non-Melanoma"	Extramammary Paget Disease	2	
+"Skin Cancer, Non-Melanoma"	Merkel Cell Carcinoma	63	
+"Skin Cancer, Non-Melanoma"	Sebaceous Carcinoma	2	
+"Skin Cancer, Non-Melanoma"	Skin Adnexal Carcinoma	6	
+"Skin Cancer, Non-Melanoma"	Sweat Gland Adenocarcinoma	2	
+"Skin Cancer, Non-Melanoma"	Sweat Gland Carcinoma/Apocrine Eccrine Carcinoma	2	
+Small Bowel Cancer	Duodenal Adenocarcinoma	2	
+Small Bowel Cancer	Small Bowel Cancer	34	
+Small Cell Lung Cancer	Lung Neuroendocrine Tumor	7	Small Cell Lung Cancer
+Small Cell Lung Cancer	Small Cell Lung Cancer	81	Small Cell Lung Cancer
+Soft Tissue Sarcoma	Alveolar Rhabdomyosarcoma	5	
+Soft Tissue Sarcoma	Alveolar Soft Part Sarcoma	6	
+Soft Tissue Sarcoma	Angiosarcoma	36	
+Soft Tissue Sarcoma	Clear Cell Sarcoma	3	
+Soft Tissue Sarcoma	Dedifferentiated Liposarcoma	45	
+Soft Tissue Sarcoma	Desmoid/Aggressive Fibromatosis	1	
+Soft Tissue Sarcoma	Desmoplastic Small-Round-Cell Tumor	22	
+Soft Tissue Sarcoma	Embryonal Rhabdomyosarcoma	9	
+Soft Tissue Sarcoma	Epithelioid Hemangioendothelioma	5	
+Soft Tissue Sarcoma	Epithelioid Sarcoma	8	
+Soft Tissue Sarcoma	Fibrosarcoma	5	
+Soft Tissue Sarcoma	Follicular Dendritic Cell Sarcoma	4	
+Soft Tissue Sarcoma	Glomangiosarcoma	1	
+Soft Tissue Sarcoma	Histiocytic Dendritic Cell Sarcoma	1	
+Soft Tissue Sarcoma	Inflammatory Myofibroblastic Tumor	3	
+Soft Tissue Sarcoma	Intimal Sarcoma	9	
+Soft Tissue Sarcoma	Leiomyosarcoma	41	
+Soft Tissue Sarcoma	Liposarcoma	1	
+Soft Tissue Sarcoma	Low-Grade Fibromyxoid Sarcoma	1	
+Soft Tissue Sarcoma	Myofibroma	1	
+Soft Tissue Sarcoma	Myxofibrosarcoma	7	
+Soft Tissue Sarcoma	Myxoid/Round-Cell Liposarcoma	18	
+Soft Tissue Sarcoma	Myxoma	1	
+Soft Tissue Sarcoma	Ossifying Fibromyxoid Tumor	2	
+Soft Tissue Sarcoma	Perivascular Epithelioid Cell Tumor	6	
+Soft Tissue Sarcoma	Pleomorphic Liposarcoma	8	
+Soft Tissue Sarcoma	Pleomorphic Rhabdomyosarcoma	4	
+Soft Tissue Sarcoma	Proximal-Type Epithelioid Sarcoma	1	
+Soft Tissue Sarcoma	Rhabdomyosarcoma	11	
+Soft Tissue Sarcoma	"Sarcoma, NOS"	31	
+Soft Tissue Sarcoma	Sclerosing Epithelioid Fibrosarcoma	2	
+Soft Tissue Sarcoma	Soft Tissue Myoepithelial Carcinoma	6	
+Soft Tissue Sarcoma	Solitary Fibrous Tumor/Hemangiopericytoma	24	
+Soft Tissue Sarcoma	Spindle Cell Rhabdomyosarcoma	3	
+Soft Tissue Sarcoma	Synovial Sarcoma	34	
+Soft Tissue Sarcoma	Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma	59	
+Soft Tissue Sarcoma	Well-Differentiated Liposarcoma	18	
+Thymic Tumor	Thymic Carcinoma	10	
+Thymic Tumor	Thymoma	8	
+Thyroid Cancer	Anaplastic Thyroid Cancer	33	Thyroid Cancer
+Thyroid Cancer	Follicular Thyroid Cancer	5	Thyroid Cancer
+Thyroid Cancer	Hurthle Cell Thyroid Cancer	23	Thyroid Cancer
+Thyroid Cancer	Medullary Thyroid Cancer	17	Thyroid Cancer
+Thyroid Cancer	Papillary Thyroid Cancer	94	Thyroid Cancer
+Thyroid Cancer	Poorly Differentiated Thyroid Cancer	60	Thyroid Cancer
+Uterine Sarcoma	Endometrial Stromal Sarcoma	3	
+Uterine Sarcoma	High-Grade Endometrial Stromal Sarcoma	4	
+Uterine Sarcoma	Low-Grade Endometrial Stromal Sarcoma	1	
+Uterine Sarcoma	Undifferentiated Uterine Sarcoma	2	
+Uterine Sarcoma	Uterine Adenosarcoma	3	
+Uterine Sarcoma	Uterine Epithelioid Leiomyosarcoma	5	
+Uterine Sarcoma	Uterine Leiomyosarcoma	57	
+Uterine Sarcoma	Uterine Myxoid Leiomyosarcoma	2	
+Uterine Sarcoma	Uterine Perivascular Epithelioid Cell Tumor	10	
+Uterine Sarcoma	"Uterine Sarcoma, Other"	4	
+Uterine Sarcoma	Uterine Smooth Muscle Tumor of Uncertain Malignant Potential	2	
+Vaginal Cancer	Squamous Cell Carcinoma of the Vulva/Vagina	4	
+Wilms Tumor	Wilms Tumor	2	
