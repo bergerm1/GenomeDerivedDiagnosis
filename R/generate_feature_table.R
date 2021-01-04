@@ -1,10 +1,10 @@
 .generate_feature_table <- function(repository_folder){
 
-  data_clinical_sample <- fread(
-    file.path(repository_folder, "data_clinical_sample.txt"),
+  data_clinical_sample <- data.table::fread(
+    file.path(repository_folder, "extdata/data_clinical_sample.txt"),
     skip = 4)
-  data_clinical_patient <- fread(
-    file.path(repository_folder, "data_clinical_patient.txt"),
+  data_clinical_patient <- data.table::fread(
+    file.path(repository_folder, "extdata/data_clinical_patient.txt"),
     skip = 4)
   data_clinical_sample <- merge(
     data_clinical_sample,
@@ -15,38 +15,24 @@
   ### get supplementary info
   supplement_file_tmp <- tempfile()
   download.file(
-    "https://media.nature.com/original/nature-assets/nm/journal/v23/n6/extref/nm.4333-S2.xlsx",
+    "https://static-content.springer.com/esm/art%3A10.1038%2Fnm.4333/MediaObjects/41591_2017_BFnm4333_MOESM22_ESM.xlsx",
     destfile = supplement_file_tmp,
     quiet = TRUE
   )
   data_clinical_sample_extra <- as.data.table(readxl::read_xlsx(supplement_file_tmp, sheet = 1, skip = 3))
   file.remove(supplement_file_tmp)
 
-
   data_clinical_sample <- merge(
     data_clinical_sample,
     data_clinical_sample_extra[, .(
-      SAMPLE_ID = Assay_ID,
-      CANCER_TYPE = GeneralTumorType,
-      CANCER_TYPE_DETAILED = DetailedTumorType)],
+      SAMPLE_ID = "Assay_ID",
+      CANCER_TYPE = "GeneralTumorType",
+      CANCER_TYPE_DETAILED = "DetailedTumorType")],
     by = "SAMPLE_ID",
     all.x = T
   )
-
-  # cancer_type_key <- file.path(code_dir, "tumor_types.txt")
-  # # if(cancer_type_key == "none"){
-  # #   input_cancertypes <- NULL
-  # # } else {
-  # input_cancertypes <- suppressWarnings(fread(cancer_type_key))
-  # input_cancertypes <- input_cancertypes[, .(CANCER_TYPE,
-  #                                            CANCER_TYPE_DETAILED,
-  #                                            Cancer_Type)]
-  # input_cancertypes <- input_cancertypes[Cancer_Type != ""]
-  # input_cancertypes <- input_cancertypes[!is.na(Cancer_Type)]
-  # input_cancertypes[, Cancer_Type := make.names(Cancer_Type)]
-  # # }
-  # # setnames(input_cancertypes, "Cancer_Type", "iCancer_Type")
-
+ 
+  ## create feature table
   feature_table <- merge(
     data_clinical_sample,
     MolecularDiagnosis::cancertypes[, .(CANCER_TYPE,
@@ -71,7 +57,7 @@
     Gender_F
   )]
 
-  sigs <- fread(file.path(repository_folder, "msk_impact_2017_data_mutations_uniprot.30sigs.txt"))
+  sigs <- fread(file.path(repository_folder, "example_data/msk_impact_2017/msk_impact_2017_data_mutations_uniprot.30sigs.txt"))
   sigsm <- melt.data.table(sigs, id.vars = c("Sample Name", "Number of Mutations"))
 
   sig_names <- c(
@@ -124,23 +110,19 @@
 
 
   input_seg <- "msk_impact_2017_data_cna_hg19.seg"
-  seg <- suppressWarnings(fread(showProgress = F, file.path(repository_folder, input_seg)))
+  seg <- suppressWarnings(fread(showProgress = F, file.path(repository_folder, "example_data/msk_impact_2017/", input_seg)))
   # }
 
   # if(include_focal_cn_portal == TRUE) {
-  input_cn <- "data_CNA.txt"
-  cn <- suppressWarnings(fread(showProgress = F, file.path(repository_folder, input_cn)))
+  ##input_cn <- "data_CNA.txt"
+  ##cn <- suppressWarnings(fread(showProgress = F, file.path(repository_folder, "ext_data", input_cn)))
+  input_cna <- "data_CNA.rds"
+  cn <- readRDS(file.path(repository_folder, "extdata", input_cna))
+  
+  input_SV <- "data_fusions.rds"
+  SV <- readRDS(file.path(repository_folder, "extdata", input_SV))
 
-  input_SV <- "data_fusions.txt"
-  SV <- suppressWarnings(fread(showProgress = F, file.path(repository_folder, input_SV)))
-
-  maf <- suppressWarnings(
-    fread(
-      showProgress = F,
-      file.path(repository_folder,
-                "data_mutations_uniprot.txt")
-    )
-  )
+  maf <- readRDS(file.path(repository_folder,"extdata/data_mutations_uniprot.rds"))
 
   ## purity
   maf[, t_depth := t_alt_count + t_ref_count]
@@ -185,7 +167,7 @@
 
 
 
-  feature_table <- merge(all.x = TRUE, by="SAMPLE_ID", feature_table, as.data.table(mutations(maf = maf)))
+  feature_table <- merge(all.x = TRUE, by="SAMPLE_ID", feature_table, as.data.table(MolecularDiagnosis::mutations(maf = maf)))
   #if(include_truncating_mutations == TRUE)
   feature_table <- merge(all.x = TRUE, by="SAMPLE_ID", feature_table, as.data.table(truncating_mutations(maf = maf)))
   #if(include_hotspots == TRUE)
